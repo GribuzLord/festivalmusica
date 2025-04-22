@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/GribuzLord/festivalmusica/issues"
   },
-  "homepage": "https://github.com/GribuzLord/festivalmusica#readme"
+  "homepage": "https://github.com/GribuzLord/festivalmusica#readme",
+  "devDependencies": {
+    "sass": "^1.87.0"
+  }
 }
