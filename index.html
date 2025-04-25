@@ -37,7 +37,13 @@
 
     <section class="contenedor contenido-info">
         <div class="imagen">
-            <img width="300" height="200" loading="lazy" src="/src/img/imagen_dj.jpg" alt="Imagen de DJ">
+
+            <picture>
+                <source srcset="build/img/imagen_dj.avif" type="image/avif"/>
+                <source srcset="build/img/imagen_dj.webp" type="image/webp"/>
+                <img width="300" height="200" loading="lazy" src="/build/img/imagen_dj.jpg" alt="Imagen de DJ">
+
+            </picture>
         </div>
         <div class="contenido">
             <h2>Techno & EDM Festival</h2>
